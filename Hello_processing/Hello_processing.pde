@@ -11,6 +11,7 @@ void setup(){
   gravity=new PVector(0,0.2);
 }
 void draw(){
+  println("Hello World");
   background(255, 204, 0);
   location.add(velocity);
   velocity.add(gravity);
